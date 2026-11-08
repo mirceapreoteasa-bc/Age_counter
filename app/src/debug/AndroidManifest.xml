@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Debug-only manifest, used by the batch test runner.
+
+     The shipped app needs no storage permission at all: it captures through
+     the system camera and writes through a SAF folder the user picks with
+     ACTION_OPEN_DOCUMENT_TREE. The batch runner instead walks the whole photo
+     library unattended, so it needs read access to enumerate and write access
+     to export. Both are debug-only and are absent from the release manifest. -->
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission
+        android:name="android.permission.WRITE_EXTERNAL_STORAGE"
+        android:maxSdkVersion="28" />
+
+    <!-- Debug only: let a test harness launch the count screen on a photo that
+         is already on the device, without going through the camera:
+
+           adb shell am start -n org.agecore.app/.CountActivity
+               -e photo /sdcard/Download/agecore/382.jpg
+
+         The release manifest keeps both screens unexported. -->
+    <application>
+        <activity
+            android:name=".CountActivity"
+            android:exported="true"
+            tools:replace="android:exported" />
+    </application>
+</manifest>

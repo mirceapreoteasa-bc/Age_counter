@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Age Count</string>
+    <string name="start_counting">Start counting</string>
+    <string name="settings">Settings</string>
+    <string name="exit">Exit</string>
+    <string name="work_folder">Work folder</string>
+    <string name="no_folder_set">No work folder set.\nUse Settings to choose one (for example Documents/AGE_COUNT).</string>
+</resources>

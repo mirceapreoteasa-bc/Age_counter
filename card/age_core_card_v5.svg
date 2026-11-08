@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="297.0mm" height="210.0mm" viewBox="0 0 297.0 210.0">
+<rect x="0" y="0" width="297.0" height="210.0" fill="#FFFFFF"/>
+<circle cx="14.0" cy="14.0" r="4.00" fill="#000000"/>
+<circle cx="283.0" cy="14.0" r="4.00" fill="#000000"/>
+<circle cx="14.0" cy="196.0" r="4.00" fill="#000000"/>
+<circle cx="283.0" cy="196.0" r="4.00" fill="#000000"/>
+<rect x="196.0" y="8.0" width="25.0" height="25.0" fill="#000000"/>
+<rect x="228.0" y="8.0" width="25.0" height="25.0" fill="#FFFFFF" stroke="#000000" stroke-width="1.6"/>
+<text x="196.0" y="38.0" font-family="DejaVu Sans, Helvetica, Arial, sans-serif" font-size="3.6" fill="#000000" text-anchor="start" font-weight="bold">TONER CHECK</text>
+<text x="228.0" y="38.0" font-family="DejaVu Sans, Helvetica, Arial, sans-serif" font-size="3.6" fill="#000000" text-anchor="start" font-weight="bold">WHITE REF</text>
+<text x="196.0" y="42.0" font-family="DejaVu Sans, Helvetica, Arial, sans-serif" font-size="3.0" fill="#000000" text-anchor="start" font-weight="normal">App reads these to set its own threshold.</text>
+<text x="12.0" y="28.0" font-family="DejaVu Sans, Helvetica, Arial, sans-serif" font-size="6.5" fill="#000000" text-anchor="start" font-weight="bold">AGE CORE PHOTO CARD v5</text>
+<text x="12.0" y="34.0" font-family="DejaVu Sans, Helvetica, Arial, sans-serif" font-size="3.6" fill="#000000" text-anchor="start" font-weight="normal">Scale is the 5 mm core itself. The print is a target, not a ruler.</text>
+<rect x="12.0" y="50.0" width="273.0" height="18.0" fill="#FFFFFF" stroke="#000000" stroke-width="1.2"/>
+<rect x="20.0" y="53.0" width="1.6" height="7.0" fill="#000000"/>
+<rect x="70.0" y="53.0" width="1.6" height="7.0" fill="#000000"/>
+<rect x="120.0" y="53.0" width="1.6" height="7.0" fill="#000000"/>
+<rect x="170.0" y="53.0" width="1.6" height="7.0" fill="#000000"/>
+<rect x="220.0" y="53.0" width="1.6" height="7.0" fill="#000000"/>
+<text x="12.0" y="47.0" font-family="DejaVu Sans, Helvetica, Arial, sans-serif" font-size="3.4" fill="#000000" text-anchor="start" font-weight="bold">RULER LANE - lay an opaque ruler here, never over a core</text>
+<text x="14.0" y="66.0" font-family="DejaVu Sans, Helvetica, Arial, sans-serif" font-size="3.0" fill="#000000" text-anchor="start" font-weight="normal">50 mm comb - check only, not used for scale</text>
+<rect x="12.0" y="96.0" width="1.2" height="4.0" fill="#000000"/>
+<rect x="62.0" y="96.0" width="1.2" height="4.0" fill="#000000"/>
+<rect x="112.0" y="96.0" width="1.2" height="4.0" fill="#000000"/>
+<rect x="162.0" y="96.0" width="1.2" height="4.0" fill="#000000"/>
+<rect x="212.0" y="96.0" width="1.2" height="4.0" fill="#000000"/>
+<rect x="12.0" y="78.0" width="273.0" height="16.0" fill="#000000"/>
+<text x="12.0" y="75.0" font-family="DejaVu Sans, Helvetica, Arial, sans-serif" font-size="3.4" fill="#000000" text-anchor="start" font-weight="bold">CHANNEL A - pale cores. Lay the core on the black, ends to both edges.</text>
+<rect x="12.0" y="110.0" width="273.0" height="16.0" fill="#FFFFFF"/>
+<rect x="12.0" y="110.0" width="273.0" height="1.6" fill="#000000"/>
+<rect x="12.0" y="124.4" width="273.0" height="1.6" fill="#000000"/>
+<rect x="12.0" y="110.0" width="1.6" height="16.0" fill="#000000"/>
+<rect x="283.4" y="110.0" width="1.6" height="16.0" fill="#000000"/>
+<text x="12.0" y="107.0" font-family="DejaVu Sans, Helvetica, Arial, sans-serif" font-size="3.4" fill="#000000" text-anchor="start" font-weight="bold">CHANNEL B - dark cores. Core must touch both black rules.</text>
+<rect x="12.0" y="136.0" width="100.0" height="5.0" fill="#000000"/>
+<text x="12.0" y="133.5" font-family="DejaVu Sans, Helvetica, Arial, sans-serif" font-size="3.2" fill="#000000" text-anchor="start" font-weight="bold">100.00 mm nominal - DRIFT CHECK ONLY, not used for scale</text>
+<rect x="12.0" y="150.0" width="40.0" height="5.0" fill="#000000"/>
+<text x="12.0" y="147.5" font-family="DejaVu Sans, Helvetica, Arial, sans-serif" font-size="3.2" fill="#000000" text-anchor="start" font-weight="bold">5.00 mm nominal - app compares this with the measured core</text>
+<text x="24.0" y="162.0" font-family="DejaVu Sans, Helvetica, Arial, sans-serif" font-size="3.4" fill="#000000" text-anchor="start" font-weight="normal">1  Core scale: the app measures the core's own 5 mm diameter. Print size does not enter the count.</text>
+<text x="24.0" y="168.0" font-family="DejaVu Sans, Helvetica, Arial, sans-serif" font-size="3.4" fill="#000000" text-anchor="start" font-weight="normal">2  Use CHANNEL A for a pale core, CHANNEL B for a dark one. The whole core should lie in one channel.</text>
+<text x="24.0" y="174.0" font-family="DejaVu Sans, Helvetica, Arial, sans-serif" font-size="3.4" fill="#000000" text-anchor="start" font-weight="normal">3  Cores under 10:1 length to width are refused rather than counted.</text>
+<text x="24.0" y="180.0" font-family="DejaVu Sans, Helvetica, Arial, sans-serif" font-size="3.4" fill="#000000" text-anchor="start" font-weight="normal">4  Ruler in the lane is an extra check. It is not needed for the count.</text>
+<text x="24.0" y="186.0" font-family="DejaVu Sans, Helvetica, Arial, sans-serif" font-size="3.4" fill="#000000" text-anchor="start" font-weight="normal">5  One photo per channel. Overlapping shots are not stitched.</text>
+<text x="24.0" y="192.0" font-family="DejaVu Sans, Helvetica, Arial, sans-serif" font-size="3.4" fill="#000000" text-anchor="start" font-weight="normal">6  Count the whole core at once. The 50 mm ticks are position reference only.</text>
+<text x="24.0" y="198.0" font-family="DejaVu Sans, Helvetica, Arial, sans-serif" font-size="3.4" fill="#000000" text-anchor="start" font-weight="normal">7  The two patches at top right let the app set its own threshold from this print.</text>
+<text x="24.0" y="206.0" font-family="DejaVu Sans, Helvetica, Arial, sans-serif" font-size="3.0" fill="#000000" text-anchor="start" font-weight="normal">Channel 273 mm long against a 5 mm core = 55:1.  Solid black only, no greys, minimum stroke 1.2 mm.</text>
+</svg>

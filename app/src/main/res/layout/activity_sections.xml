@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="12dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Count a core by bays"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="4dp"
+            android:paddingBottom="8dp"
+            android:text="One photo of the whole core, ruler in the lane. Each bay is counted on its own - nothing is stitched, so there is no seam error." />
+
+        <ImageView
+            android:id="@+id/sectionImage"
+            android:layout_width="match_parent"
+            android:layout_height="260dp"
+            android:adjustViewBounds="true"
+            android:contentDescription="the photographed core" />
+
+        <EditText
+            android:id="@+id/ageName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="XGV1-2P1T3"
+            android:inputType="textCapCharacters"
+            android:textSize="18sp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingTop="10dp"
+                android:text="Bays  " />
+
+            <EditText
+                android:id="@+id/bayCount"
+                android:layout_width="60dp"
+                android:layout_height="wrap_content"
+                android:inputType="number"
+                android:text="5" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="16dp"
+                android:paddingTop="10dp"
+                android:text="Ring width (mm)  " />
+
+            <EditText
+                android:id="@+id/ringWidth"
+                android:layout_width="80dp"
+                android:layout_height="wrap_content"
+                android:hint="9.0"
+                android:inputType="numberDecimal" />
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/btnCount"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Count" />
+
+        <TextView
+            android:id="@+id/sectionResult"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="10dp"
+            android:textSize="15sp"
+            android:typeface="monospace" />
+
+        <LinearLayout
+            android:id="@+id/questionBox"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingTop="8dp" />
+
+        <Button
+            android:id="@+id/btnSaveProof"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="12dp"
+            android:text="Save proof images" />
+
+        <Button
+            android:id="@+id/btnSave"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Save count record" />
+    </LinearLayout>
+</ScrollView>

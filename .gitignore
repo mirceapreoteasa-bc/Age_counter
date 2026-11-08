@@ -1,0 +1,14 @@
+.gradle/
+build/
+local.properties
+*.apk
+.idea/
+*.iml
+captures/
+.externalNativeBuild/
+.cxx/
+# model weights and generated outputs (not source)
+out/
+weights/
+*.pt
+*.tif
