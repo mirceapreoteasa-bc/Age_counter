@@ -49,4 +49,4 @@ Build flavours: `android9` and `android12` (choose the one matching the device's
 
 ## Licence
 
-No licence has been chosen yet. Until one is added, all rights are reserved by the author.
+Released under the MIT License (see `LICENSE`). You may use, change and redistribute the code, including in commercial work, as long as the copyright notice is kept.
